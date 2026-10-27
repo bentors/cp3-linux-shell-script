@@ -192,7 +192,7 @@ while true; do
     show "7) Finalizar um processo (PID)"
     show "8) Ver logs"
     show "0) Sair"
-    read -rp "Escolha uma opção: " OPCAO
+    read -rp "Escolha uma opção: " OPCAO || encerrar
 
     case $OPCAO in
         1) log_audit "consultou as informações do sistema"; info_sistema ;;
