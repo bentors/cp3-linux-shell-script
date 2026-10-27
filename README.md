@@ -18,6 +18,7 @@ Script em Bash para monitoramento e administração de um servidor Linux: exibe 
 .
 ├── script.sh              # script principal
 ├── CP3_Shell_Script.docx  # enunciado com os nomes do grupo
+├── docs/                  # prints da execução
 └── README.md
 ```
 
@@ -78,3 +79,23 @@ Exemplo de `audit.log`:
 [26/10/2026 20:40:24] Usuário bento consultou detalhes do processo 439
 [26/10/2026 20:40:24] Usuário bento interrompeu o processo 439 (sleep)
 ```
+
+## Execução
+
+Testado no Ubuntu (WSL2).
+
+**Boas-vindas e menu**
+
+![Boas-vindas e menu](docs/01-inicio-menu.png)
+
+**Monitoramento de memória**
+
+![Memória RAM](docs/02-memoria.png)
+
+**Finalizando um processo pelo PID**
+
+![Finalizar processo](docs/03-finalizar-processo.png)
+
+**Logs gerados (`exec.log` e `audit.log`)**
+
+![Logs](docs/04-logs.png)
